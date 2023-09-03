@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "glyph"
+version = "0.1.0"
+description = "roguelike"
+authors = ["Vadim Galaktionov <vadim@galaktionov.nl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+esper = "^2.5"
+pyxel = "^1.9.18"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.1"
+mypy = "^1.5.1"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
